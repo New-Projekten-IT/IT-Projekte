@@ -1,94 +1,137 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio – Danilo Ocampo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f9f9f9;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #0a84ff;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        main {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        h2 {
-            color: #0a84ff;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            background: white;
-            margin: 10px 0;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        a {
-            color: #0a84ff;
-            text-decoration: none;
-            margin-right: 10px;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danilo Ocampo – Web-Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1rem;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      color: #005f73;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: white;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    li a {
+      text-decoration: none;
+      color: #0a9396;
+      font-weight: bold;
+      margin: 5px;
+    }
+    li a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    @media (max-width: 600px) {
+      li {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Danilo Ocampo</h1>
-        <p>Mein Weg in die IT – Projekte & Lernfortschritt</p>
-    </header>
-    <main>
-        <h2>Projekte</h2>
-        <ul>
-            <li>
-                Mein Weg in die IT 
-                <a href="https://codepen.io/IT-Projekte/full/empEKyy" target="_blank">Live</a> ·
-                <a href="https://codepen.io/IT-Projekte/pen/empEKyy" target="_blank">Code</a>
-            </li>
-            <li>
-                Responsive Version 
-                <a href="https://codepen.io/IT-Projekte/full/QwjqpWZ" target="_blank">Live</a> ·
-                <a href="https://codepen.io/IT-Projekte/pen/QwjqpWZ" target="_blank">Code</a>
-            </li>
-            <li>
-                To-Do-Liste 
-                <a href="https://codepen.io/IT-Projekte/full/myeBeMr" target="_blank">Live</a> ·
-                <a href="https://codepen.io/IT-Projekte/pen/myeBeMr" target="_blank">Code</a>
-            </li>
-            <li>
-                Café Sonnenschein 
-                <a href="https://codepen.io/IT-Projekte/full/QwjqwoW" target="_blank">Live</a> ·
-                <a href="https://codepen.io/IT-Projekte/pen/QwjqwoW" target="_blank">Code</a>
-            </li>
-            <li>
-                Spiel Fachbegriffe 
-                <a href="https://codepen.io/IT-Projekte/full/EaVwxMx" target="_blank">Live</a> ·
-                <a href="https://codepen.io/IT-Projekte/pen/EaVwxMx" target="_blank">Code</a>
-            </li>
-            <li>
-                Visitenkarte 
-                <a href="https://codepen.io/IT-Projekte/full/NPGaKjx" target="_blank">Live</a> ·
-                <a href="https://codepen.io/IT-Projekte/pen/NPGaKjx" target="_blank">Code</a>
-            </li>
-        </ul>
-    </main>
+  <header>
+    <h1>Danilo Ocampo</h1>
+    <p>Quereinsteiger Webentwicklung · HTML · CSS · JavaScript</p>
+    <p>Augsburg, Deutschland · <a href="mailto:ofranco-services@web.de" style="color:white;">E-Mail senden</a></p>
+  </header>
+
+  <main>
+    <h2>Projekte</h2>
+    <ul>
+      <li>
+        Mein Weg in die IT
+        <span>
+          <a href="https://codepen.io/IT-Projekte/full/empEKyy">Live-Demo</a>
+          <a href="https://codepen.io/IT-Projekte/pen/empEKyy">Quellcode</a>
+        </span>
+      </li>
+      <li>
+        Responsive Version
+        <span>
+          <a href="https://codepen.io/IT-Projekte/full/QwjqpWZ">Live-Demo</a>
+          <a href="https://codepen.io/IT-Projekte/pen/QwjqpWZ">Quellcode</a>
+        </span>
+      </li>
+      <li>
+        To-Do-Liste
+        <span>
+          <a href="https://codepen.io/IT-Projekte/full/myeBeMr">Live-Demo</a>
+          <a href="https://codepen.io/IT-Projekte/pen/myeBeMr">Quellcode</a>
+        </span>
+      </li>
+      <li>
+        Café Sonnenschein
+        <span>
+          <a href="https://codepen.io/IT-Projekte/full/QwjqwoW">Live-Demo</a>
+          <a href="https://codepen.io/IT-Projekte/pen/QwjqwoW">Quellcode</a>
+        </span>
+      </li>
+      <li>
+        Spiel Fachbegriffe
+        <span>
+          <a href="https://codepen.io/IT-Projekte/full/EaVwxMx">Live-Demo</a>
+          <a href="https://codepen.io/IT-Projekte/pen/EaVwxMx">Quellcode</a>
+        </span>
+      </li>
+      <li>
+        Visitenkarte
+        <span>
+          <a href="https://codepen.io/IT-Projekte/full/NPGaKjx">Live-Demo</a>
+          <a href="https://codepen.io/IT-Projekte/pen/NPGaKjx">Quellcode</a>
+        </span>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    Hinweis: Dies sind Lernprojekte. Ich freue mich über Feedback und Anfragen.
+  </footer>
 </body>
 </html>

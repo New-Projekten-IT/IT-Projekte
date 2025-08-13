@@ -1,6 +1,13 @@
-# 🌐 Meine Webprojekte
+# 🌟 Willkommen zu meinem Web-Portfolio
 
-Hier finden Sie eine Übersicht meiner HTML/CSS/JS-Projekte mit Links zur Live-Demo und zum Quellcode.
+Hallo!  
+Ich bin Danilo, ein motivierter Quereinsteiger in die IT mit Leidenschaft für Webentwicklung.  
+Hier finden Sie eine Auswahl meiner HTML/CSS/JS-Projekte, die ich selbstständig erstellt habe.  
+Jedes Projekt können Sie direkt als **Live-Demo** ansehen oder den **Quellcode** aufrufen.
+
+---
+
+## 📌 Webprojekte
 
 | Projektname          | Live-Demo                                                                 | Quellcode                                                                 |
 |----------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|
@@ -15,3 +22,14 @@ Hier finden Sie eine Übersicht meiner HTML/CSS/JS-Projekte mit Links zur Live-D
 
 📄 **Portfolio-Webseite:**  
 ➡ [https://new-projekten-it.github.io/IT-Projekte/](https://new-projekten-it.github.io/IT-Projekte/)
+
+---
+
+## 📬 Kontakt
+
+- 📧 **E-Mail:** ofranco-services@web.de  
+- 🖥 **GitHub:** [https://github.com/New-Projekten-IT](https://github.com/New-Projekten-IT)  
+
+---
+
+💡 *Hinweis: Dieses Portfolio wird kontinuierlich erweitert, um meine Lernfortschritte zu zeigen.*
